@@ -32,6 +32,8 @@ body {
 
     padding: 15px;
     width: 100%;
+    
+    background-color: #121212b7;
 
     box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.61);
 
@@ -46,35 +48,59 @@ body {
 
 }
 
-.g {
-    text-decoration: underline;
-}
-
 .main-h1:hover {
     color: #0a8173;
 
-    transition: ease 0.4s;
+    transition: all 0.4s;
+    
 }
 
-.navbar {
+.navbar, a {
     display: flex;
     gap: 30px;
 
-}
-
-.navbar > a {
     text-decoration: none;
     font-size: 18px;
 
     color: white;
+
 }
 
-.navbar > a:hover {
+.navbar p {
+    display: inline-block;
+    position: relative;
+    color: #02ffe2;
+}
+
+.navbar p:after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: #00dec5;
+    
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar p:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* .navbar > a:hover {
     color: #0ed4bd;
 
     border-bottom: 2px solid #00E2C5;
-    transition: ease-in 0.1s;
-}
+    transition: ease 0.1s;
+
+} */
 
 .main {
     display: flex;
@@ -85,7 +111,7 @@ body {
 
 }
 
-.about-me {
+.home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,62 +125,163 @@ body {
     
     text-align: center;
 
-    transition: ease 0.4s;
-    
 }
 
-.about-me > h1 {
-    margin: 0px 0px 0px 25px;
-
-    text-align: center;
-}
-
-.about-me > h1 > strong{
+.home h1 strong, .about-me-img{
     color: #03d1b6;
-}
 
-.about-me-img {
     width: 35vw;
-
-    transition: ease 1.2s;
-
 }
 
 .socials {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
+
 }
+
 
 .socials > a > img{
     width: 4vw;
+    transition: 0.2s;
 
 }
 
-.second-section {
-    margin: 0px 80px 80px 80px;
+.socials > a > img:hover {
+    transform: translateY(-10px);
+
+}
+
+.about-me {
+    margin: 0px 40px 40px 40px;
     padding: 30px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
 
-.second-section > img {
-    width: 35vw;
-
-}
-
-.text-second-section {
     font-size: 22px;
 
 }
 
+.about-me > img {
+    width: 35vw;
+
+}
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+
+    margin: 0px 40px 40px 40px;
+    padding: 70px;
+    
+}
+
+.my-skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-skills-left {
+    width: 35vw;
+
+    margin-right: 50px;
+
+}
+
+.my-skills-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin-left: 50px;
+}
+
+.my-skills-right > div > img {
+    width: 10vw;
+}
+
 .text-second-section > p > strong {
     color: #1ec1b6;
+}
+
+.css, .javascript, .html{
+    transition: ease .3s;
+
+}
+
+.css:hover,
+.javascript:hover,
+.html:hover {
+
+    opacity: 1;
+    transform: translateY(-10px);
+
+}
+
+.my-projects {
+    margin: 0px 40px 40px 40px;
+    padding: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projects-container div img{
+    width: 50vw;
+    
+}
+
+.first-projeto {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.second-projeto {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.third-projeto {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 /* SCROLL BAR */
@@ -180,3 +307,4 @@ body {
     ::-webkit-scrollbar-thumb:hover {
     background: #105a55; 
 }
+

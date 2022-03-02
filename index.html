@@ -9,30 +9,40 @@
     <title>Gustavo Santana</title>
 </head>
 <body>
+
+    <!-- HEADER -->
+
     <header class="main-header">
         <h1 class="main-h1"> 
-            <span class="g">G</span>ustavo Santana 
+            Gustavo Santana 
         </h1>
+
         <nav class="navbar">
             <a href="#1">
-                <ul>Início</ul>
+                <p>Início</p>
             </a>
             <a href="#2">
-                <ul>Sobre mim</ul>
+                <p>Sobre mim</p>
             </a>
             <a href="#3">
-                <ul>Habilidades</ul>
+                <p>Habilidades</p>
             </a>
-            <a href="#">
-                <ul style="border-bottom: 2px solid #00dec5;">Contato</ul>
+            <a href="#4">
+                <p>Projetos</p>
+            </a>
+            <a href="#5">
+                <p>Contato</p>
             </a>
         </nav>
-
     </header>
+
+    <!-- MAIN -->
 
     <main class="main">
 
-        <div class="about-me" id="1">
+    <!-- SOBRE MIM  -->
+
+        <div class="home" id="1">
             <h1>Seja bem-vindo ao meu portfólio. <br>
                 Meu nome é <strong>Gustavo</strong>, estudante de programação. </h1>
             <img class="about-me-img" src="assets/images/horror-video-game-animate.svg" alt="Pessoa jogando">
@@ -43,22 +53,68 @@
             <a href="https://github.com/gustavros" target="_blank">
                 <img src="assets/images/icons8-github (1).svg" alt="Github">
             </a>
-            <a href="" target="_blank">
+            <a href="#" target="_blank">
                 <img src="assets/images/icons8-linkedin (1).svg" alt="Linkedin">
             </a>
         </div>
 
-        <div class="second-section" id="2">
-            <div class="text-second-section">
+        <!-- SOBRE MIM CONTEUDO -->
+
+        <div class="about-me" id="2">
+            <div>
                 <h1>Sobre mim</h1>
                 <p>Desde pequeno, curioso por esse mundo de <strong>internet</strong>, <strong>computadores</strong> e <strong>jogos</strong>, sempre gostei muito de cutucar computadores, abrir, mexer neles, até que descobri que existia profissões relacionadas a essa minha curiosidade, comecei com <strong>micro-computadores</strong>, formatando, limpando e até montando de amigos e parentes, então entrei de cabeça nesse mundo da <strong>programação</strong> desde novembro de 2021, estou até hoje estudando Front-End, pretendo me tornar um profissional capacitado na área. </p>
             </div>
             <img src="assets/images/personal-data-animate.svg" alt="">
         </div>
 
+        <!-- MINHAS HABILIDADES -->
+
         <div class="my-skills" id="3">
-            <h1>Minhas habilidades</h1>
+            <h1>Atualmente estou estudando</h1>
+            <div class="my-skills-container">
+                <div class="my-skills-left">
+                    <img src="assets/images/source-code-animate (1).svg" alt="">
+                </div>
+                
+                    <div class="my-skills-right">
+                        <div class="html">
+                            <img src="assets/images/icons8-html-5.svg" alt="HTML5" title="HTML5" class="myDIV">
+                            <p class="hide">HTML5</p>
+                        </div>
+                        <div class="css">
+                            <img src="assets/images/icons8-css3.svg" alt="CSS3" title="CSS3" class="myDIV">
+                            <p class="hide">CSS3</p>
+                        </div>
+                        <div class="javascript">
+                            <img src="assets/images/icons8-javascript.svg" alt="JavaScript" title="JavaScript" class="myDIV">
+                            <p class="hide">JavaScript</p>
+                        </div>
+                    </div>
+            </div>
+                
         </div>
+
+        <div class="my-projects" id="4">
+            <h1>Meus projetos favoritos feitos por mim</h1>
+            <div class="projects-container" >
+                <div class="first-projeto">
+                    <img src="assets/images/first-projeto.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolore natus veritatis, earum eveniet tempore deleniti est consequatur quod nostrum. Nisi voluptatibus delectus nulla accusantium modi consequatur reprehenderit obcaecati praesentium?</p>
+                </div>
+                <div class="second-projeto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsam nobis nostrum magnam dolor provident, accusantium, incidunt optio minus perferendis ea, quam corporis! Quibusdam quaerat, consectetur vitae obcaecati iusto repellendus?</p>
+                    <img src="assets/images/second-projeto.jpg" alt="">
+                </div>
+                <div class="third-projeto">
+                    <img src="assets/images/third-projeto.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique ex laudantium animi fugit blanditiis molestiae provident corporis rem atque, debitis dicta nisi quas deserunt doloremque sapiente mollitia facilis veritatis. Nihil.</p>
+                </div>
+            </div>
+        </div>
+
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
