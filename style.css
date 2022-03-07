@@ -262,12 +262,14 @@ body {
 }
 
 .projects-container > 
-.first-projeto img, 
-.second-projeto img, 
-.third-projeto img{
+.first-projeto video, 
+.second-projeto video, 
+.third-projeto video{
     width: 40vw;
-}
 
+    pointer-events: none;
+
+}
 
 .first-projeto {
     display: flex;
@@ -310,6 +312,7 @@ body {
 #projetos-images-img:hover {
     transform: translateY(-10px);
 }
+
 
 .second-projeto {
     display: flex;
