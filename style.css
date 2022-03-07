@@ -166,8 +166,10 @@ body {
 
 }
 
-.about-me > img {
+.about-me > img, strong {
     width: 35vw;
+
+    color: #03d1b6;
 
 }
 
@@ -220,6 +222,8 @@ body {
 .css, .javascript, .html{
     transition: ease .3s;
 
+    opacity: 1;
+
 }
 
 .css:hover,
@@ -243,45 +247,115 @@ body {
     font-size: 22px;
 }
 
+.my-projects > h1 {
+    margin-bottom: 30px;
+}
+
 .projects-container {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 80px;
     justify-content: center;
     align-items: center;
+
     
 }
 
-.projects-container div img{
-    width: 50vw;
-    
+.projects-container div img {
+    width: 55vw;
 }
 
 .first-projeto {
     display: flex;
     flex-direction: row;
-    gap: 30px;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    
     margin: 10px;
+
+}
+
+.first-projeto > p > a {
+    display: inline;
+
+    color: #03d1b6;
+    font-size: 22px;
+
+}
+
+.first-projeto > a > img {
+    transition: ease 0.2s;
+
+}
+
+.first-projeto > a > img:hover{
+    transform: scale(1.03, 1.03);
+    
+    filter: blur(2px);
+
 }
 
 .second-projeto {
     display: flex;
     flex-direction: row;
-    gap: 30px;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+
     margin: 10px;
 }
+
+
+.second-projeto > p > a {
+    display: inline;
+
+    color: #03d1b6;
+    font-size: 22px;
+
+}
+
+.second-projeto > a > img {
+    transition: ease 0.2s;
+
+}
+
+.second-projeto > a > img:hover{
+    transform: scale(1.03, 1.03);
+    
+    filter: blur(2px);
+
+}
+
 
 .third-projeto {
     display: flex;
     flex-direction: row;
-    gap: 30px;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+
     margin: 10px;
+}
+
+.third-projeto > p > a {
+    display: inline;
+
+    color: #03d1b6;
+    font-size: 22px;
+
+}
+
+.third-projeto > a > img {
+    transition: ease 0.2s;
+
+}
+
+.third-projeto > a > img:hover{
+    transform: scale(1.03, 1.03);
+    
+    filter: blur(2px);
+
 }
 
 /* SCROLL BAR */
