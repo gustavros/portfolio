@@ -261,9 +261,13 @@ body {
     
 }
 
-.projects-container div img {
-    width: 55vw;
+.projects-container > 
+.first-projeto img, 
+.second-projeto img, 
+.third-projeto img{
+    width: 40vw;
 }
+
 
 .first-projeto {
     display: flex;
@@ -284,16 +288,27 @@ body {
 
 }
 
-.first-projeto > a > img {
-    transition: ease 0.2s;
-
+.projeto-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.first-projeto > a > img:hover{
-    transform: scale(1.03, 1.03);
-    
-    filter: blur(2px);
 
+
+#projetos-images-img {
+    width: 3vw;
+
+    margin-top: 20px;
+    margin-left: 5px;
+    
+    transition: ease 0.4s;
+}
+
+#projetos-images-img:hover {
+    transform: translateY(-10px);
 }
 
 .second-projeto {
