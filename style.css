@@ -271,6 +271,7 @@ body {
 
 }
 
+
 .first-projeto {
     display: flex;
     flex-direction: row;
@@ -375,6 +376,79 @@ body {
     filter: blur(2px);
 
 }
+
+.contact {
+    margin: 10px 40px 0px 40px;
+    padding: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    
+
+}
+
+.form-main > input {
+    outline: 0;
+    border: 1px solid #a3a3a3;
+
+    background: transparent;
+
+    color: #00dec5;
+
+    padding: 4px;
+    width: 250px;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+input[type=submit] {
+    box-shadow: inset 0 0 0 0 #121212;
+    color: #fff;
+
+    transition: ease-out .4s;
+
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    box-shadow: inset 300px 0 0 0 #03d1b6;
+    color: #121212;
+
+}
+
+.form-main > textarea {
+    resize: none;
+
+    outline: 0;
+    border: 1px solid #a3a3a3;
+
+    background-color: transparent;
+    color: #00dec5;
+
+    padding: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+
 
 /* SCROLL BAR */
 
