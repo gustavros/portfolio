@@ -175,6 +175,8 @@ body {
 
 }
 
+/* MINHAS HABILIDADES */
+
 .my-skills {
     display: flex;
     flex-direction: column;
@@ -236,6 +238,8 @@ body {
     transform: translateY(-10px);
 
 }
+
+/* MEUS PROJETOS */
 
 .my-projects {
     margin: 0px 40px 40px 40px;
@@ -540,7 +544,7 @@ input[type=submit]:hover {
         text-align: center;
     
         margin: 0px 40px 55px 40px;
-        
+
     }
 
     .my-projects {
@@ -612,6 +616,275 @@ input[type=submit]:hover {
         
         filter: blur(2px);
     
+    }
+
+    .contact {
+        margin: 0px 40px 0px 40px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 22px;
+    
+        position: relative;
+    
+    }
+}
+
+@media only screen and (max-width: 680px) {
+
+    
+    .main-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    
+        padding: 15px;
+        width: 100%;
+        
+        background-color: #121212b7;
+    
+        box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.61);
+    
+        position: static;
+    }
+
+    .main-header > nav {
+        display: none;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        word-spacing: 5px;
+        padding-top: 2px;
+        text-align: center;
+    }
+    
+    .home h1 strong, .about-me-img{
+        color: #03d1b6;
+    
+        width: 55vw;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    
+    
+    .socials > a > img{
+        width: 4vw;
+        transition: 0.2s;
+    
+    }
+    
+    .socials > a > img:hover {
+        transform: translateY(-10px);
+    
+    }
+
+    .about-me {
+        margin: 0px 20px 0px 20px;
+        padding: 30px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 18px;
+
+        text-align: left;
+    
+    }
+    
+    .about-me > img, strong {
+        width: 35vw;
+    
+        color: #03d1b6;
+    
+    }
+
+    .my-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+        text-align: center;
+    
+        margin: 0px 40px 40px 40px;
+        padding: 70px;
+        
+    }
+    
+    .my-skills-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-skills-left {
+        width: 38vw;
+    
+        margin-right: 30px;
+    
+    }
+    
+    .my-skills-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        text-align: center;
+    
+        margin-left: 30px;
+    }
+    
+    .my-skills-right > div > img {
+        width: 14vw;
+    }
+    
+    .text-second-section > p > strong {
+        color: #1ec1b6;
+    }
+    
+    .css, .javascript, .html{
+        transition: ease .3s;
+    
+        opacity: 1;
+    
+    }
+    
+    .css:hover,
+    .javascript:hover,
+    .html:hover {
+    
+        opacity: 1;
+        transform: translateY(-10px);
+    
+    }
+
+    #projetos-images-img {
+        width: 5vw;
+    
+        margin-top: 20px;
+        margin-left: 5px;
+        
+        transition: ease 0.4s;
+    }
+
+    /* CONTATO */
+
+    .contact {
+        
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 22px;
+    
+        position: relative;
+    
+    }
+    
+    .contact > .overlay-text-main {
+        position: absolute;
+    
+        top: -60px;
+        
+    
+    }
+    
+    .overlay-text {
+        position: absolute;
+        top: -130px;
+        z-index: -1;
+    
+        font-size: 110px;
+        color: #3030305d;
+    
+        letter-spacing: 8px;
+    
+        text-transform: uppercase;
+
+        display: none;
+    
+    }
+    
+    .form-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 10px;
+        
+    
+    }
+    
+    .form-main > input {
+        outline: 0;
+        border: 1px solid #a3a3a3;
+    
+        background: transparent;
+    
+        color: #00dec5;
+    
+        padding: 4px;
+        width: 250px;
+    
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    input[type=submit] {
+        box-shadow: inset 0 0 0 0 #121212;
+        color: #fff;
+    
+        transition: ease-out .4s;
+    
+        cursor: pointer;
+    
+    }
+    
+    input[type=submit]:hover {
+        box-shadow: inset 300px 0 0 0 #03d1b6;
+    
+        color: #121212;
+    
+    }
+    
+    .form-main > textarea {
+        resize: none;
+    
+        outline: 0;
+    
+        padding: 10px;
+    
+        border: 1px solid #a3a3a3;
+    
+        background-color: transparent;
+        color: #00dec5;
+        
+    
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
     }
 }
 
