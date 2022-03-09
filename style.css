@@ -930,6 +930,8 @@ input[type=submit]:hover {
         align-items: center;
         justify-content: space-around;
 
+        box-sizing: border-box;
+
         padding: 10px;
 
         background-color: #121212b7;
