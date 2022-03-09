@@ -26,6 +26,8 @@ body {
 
 }
 
+/* HEADER MAIN SECTION */
+
 .main-header {
     display: flex;
     flex-direction: row;
@@ -56,17 +58,21 @@ body {
     
 }
 
+/* NAVBAR SECTION */
+
 .navbar, a {
     display: flex;
-    gap: 30px;
     text-decoration: none;
     font-size: 18px;
+    gap: 30px;
+
     color: white;
 }
 
 .navbar p {
     display: inline-block;
     position: relative;
+
     color: #ffffff;
 }
 
@@ -92,13 +98,7 @@ body {
     transform-origin: bottom left;
 }
 
-/* .navbar > a:hover {
-    color: #0ed4bd;
-
-    border-bottom: 2px solid #00E2C5;
-    transition: ease 0.1s;
-
-} */
+/* MAIN SECTION */
 
 .main {
     display: flex;
@@ -108,6 +108,8 @@ body {
     padding: 0px;
 
 }
+
+/* HOME SECTION */
 
 .home {
     display: flex;
@@ -131,12 +133,14 @@ body {
     width: 35vw;
 }
 
+/* ICON GITHUB+LINKD SECTION */
+
 .socials {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 
 }
 
@@ -151,6 +155,8 @@ body {
     transform: translateY(-10px);
 
 }
+
+/* ABOUT ME SECTION */
 
 .about-me {
     margin: 0px 40px 40px 40px;
@@ -171,7 +177,7 @@ body {
 
 }
 
-/* MINHAS HABILIDADES */
+/* MY SKILLS SECTION */
 
 .my-skills {
     display: flex;
@@ -235,7 +241,7 @@ body {
 
 }
 
-/* MEUS PROJETOS */
+/* MY PROJECTS SECTION */
 
 .my-projects {
     margin: 0px 40px 40px 40px;
@@ -258,12 +264,14 @@ body {
 .projects-container {
     display: flex;
     flex-direction: column;
-    gap: 80px;
     justify-content: center;
     align-items: center;
+    gap: 80px;
 
     
 }
+
+/* VIDEOS MY-PROJECTS */
 
 .projects-container > 
 .first-projeto video, 
@@ -274,6 +282,8 @@ body {
     pointer-events: none;
 
 }
+
+/* FIRST PROJECT SECTION */
 
 .first-projeto {
     display: flex;
@@ -302,8 +312,6 @@ body {
     
 }
 
-
-
 #projetos-images-img {
     width: 3vw;
 
@@ -317,8 +325,7 @@ body {
     transform: translateY(-10px);
 }
 
-/* SEGUNDO PROJETO SECTION */
-
+/* SECOND PROJECT SECTION */
 
 .second-projeto {
     display: flex;
@@ -329,7 +336,6 @@ body {
 
     margin: 10px;
 }
-
 
 .second-projeto > p > a {
     display: inline;
@@ -351,7 +357,7 @@ body {
 
 }
 
-/* TERCEIRO PROJETO SECTION */
+/* THIRD PROJECT SECTION */
 
 .third-projeto {
     display: flex;
@@ -383,7 +389,7 @@ body {
 
 }
 
-/* CONTACT */
+/* CONTACT SECTION */
 
 .contact {
     margin: 10px 40px 0px 40px;
@@ -407,6 +413,8 @@ body {
 
 }
 
+/* TEXT OVERLAY */
+
 .overlay-text {
     position: absolute;
     top: -130px;
@@ -421,12 +429,13 @@ body {
 
 }
 
+/* FORM MAIN SECTION */
+
 .form-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     gap: 10px;
     
 
@@ -481,7 +490,6 @@ input[type=submit]:hover {
     font-weight: 300;
 }
 
-
 /* SCROLL BAR */
 
 /* width */
@@ -508,9 +516,12 @@ input[type=submit]:hover {
 
 /* RESPONSIVIDADE */
 
-
 @media only screen and (max-width: 768px) {
-    
+
+    /* RESPONSIVITY 768PX SECTION */
+
+        /* ABOUT ME SECTION - RESPONSIVITY 768PX SECTION */
+
     .about-me {
         margin: 30px 40px 55px 40px;
     
@@ -530,6 +541,8 @@ input[type=submit]:hover {
     
     }
 
+        /* MY SKILLS SECTION - RESPONSIVITY 768PX SECTION */
+
     .my-skills {
         display: flex;
         flex-direction: column;
@@ -542,6 +555,9 @@ input[type=submit]:hover {
 
     }
 
+        /* MY PROJECTS SECTION - RESPONSIVITY 768PX SECTION */
+
+
     .my-projects {
         margin: 0px 20px 40px 20px;
         padding: 10px;
@@ -553,6 +569,9 @@ input[type=submit]:hover {
     
         font-size: 22px;
     }
+
+        /* FIRST PROJECT SECTION - RESPONSIVITY 768PX SECTION */
+
 
     .first-projeto {
         display: flex;
@@ -581,6 +600,9 @@ input[type=submit]:hover {
         
         transition: ease 0.4s;
     }
+
+        /* SECOND PROJECT SECTION - RESPONSIVITY 768PX SECTION */
+
 
     .second-projeto {
         display: flex;
@@ -613,6 +635,9 @@ input[type=submit]:hover {
     
     }
 
+        /* CONTACT SECTION - RESPONSIVITY 768PX SECTION */
+
+
     .contact {
         margin: 0px 40px 0px 40px;
     
@@ -630,7 +655,10 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 680px) {
 
+    /* RESPONSIVITY 680PX SECTION */
     
+        /* MAIN HEADER SECTION - RESPONSIVITY 680PX SECTION */
+
     .main-header {
         display: flex;
         flex-direction: row;
@@ -651,6 +679,9 @@ input[type=submit]:hover {
         display: none;
     }
 
+        /* HOME SECTION - RESPONSIVITY 680PX SECTION */
+
+
     .home {
         display: flex;
         flex-direction: column;
@@ -667,6 +698,8 @@ input[type=submit]:hover {
     
         width: 55vw;
     }
+
+        /* GITHUB AND LINKD ICON SECTION - RESPONSIVITY 680PX SECTION */
 
     .socials {
         display: flex;
@@ -689,6 +722,8 @@ input[type=submit]:hover {
     
     }
 
+        /* ABOUT ME SECTION - RESPONSIVITY 680PX SECTION */
+
     .about-me {
         margin: 0px 20px 0px 20px;
         padding: 30px;
@@ -710,6 +745,8 @@ input[type=submit]:hover {
         color: #03d1b6;
     
     }
+
+        /* MY-SKILLS SECTION - RESPONSIVITY 680PX SECTION */
 
     .my-skills {
         display: flex;
@@ -773,6 +810,9 @@ input[type=submit]:hover {
     
     }
 
+        /* MY PROJECTS - RESPONSIVITY 680PX SECTION */
+    
+
     #projetos-images-img {
         width: 5vw;
     
@@ -782,7 +822,7 @@ input[type=submit]:hover {
         transition: ease 0.4s;
     }
 
-    /* CONTATO */
+        /* CONTACT SECTION - RESPONSIVITY 680PX SECTION */
 
     .contact {
         
@@ -821,16 +861,16 @@ input[type=submit]:hover {
         display: none;
     
     }
-    
+
+        /* FORM MAIN SECTION - RESPONSIVITY 680PX SECTION */
+
     .form-main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
         gap: 10px;
         
-    
     }
     
     .form-main > input {
@@ -885,6 +925,11 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 425px) {
+
+    /* RESPONSIVITY 425PX SECTION */
+
+        /* MAIN HEADER SECTION - RESPONSIVITY 425PX SECTION */
+
     .main-header {
         display: flex;
         flex-direction: row;
@@ -899,6 +944,8 @@ input[type=submit]:hover {
         
         position: static;
     }
+
+        /* HOME SECTION - RESPONSIVITY 425PX SECTION */
 
     .home {
         display: flex;
@@ -922,6 +969,8 @@ input[type=submit]:hover {
         width: 55vw;
     }
 
+        /* HOME SECTION - RESPONSIVITY 425PX SECTION */
+
     .socials {
         display: flex;
         flex-direction: row;
@@ -942,6 +991,8 @@ input[type=submit]:hover {
         transform: translateY(-10px);
     
     }
+
+        /* ABOUT ME SECTION - RESPONSIVITY 425PX SECTION */
 
     .about-me {
         margin: 0px 0px 0px 0px;
@@ -967,7 +1018,7 @@ input[type=submit]:hover {
         color: #03d1b6;
     }
 
-    /* MINHAS HABILIDADES */
+        /* MY SKILLS SECTION - RESPONSIVITY 425PX SECTION */
 
     .my-skills {
         display: flex;
@@ -1033,7 +1084,7 @@ input[type=submit]:hover {
     
     }
 
-    /* MEUS PROJETOS */
+        /* MY PROJECTS SECTION - RESPONSIVITY 425PX SECTION */
 
     .my-projects {
         margin: 0px 0px 0px 0px;
@@ -1110,7 +1161,6 @@ input[type=submit]:hover {
         text-align: center;
     }
     
-    
     .second-projeto > p > a {
         display: inline;
     
@@ -1163,7 +1213,7 @@ input[type=submit]:hover {
     
     }
 
-    /* CONTATO */
+        /* CONTACT SECTION - RESPONSIVITY 425PX SECTION */
 
     .contact {
         
@@ -1201,6 +1251,8 @@ input[type=submit]:hover {
         display: none;
     
     }
+
+        /* FORM MAIN SECTION - RESPONSIVITY 425PX SECTION */
     
     .form-main {
         display: flex;
@@ -1267,6 +1319,10 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 400px) {
+
+    /* RESPONSIVITY 400PX SECTION */
+
+        /* MAIN HEADER SECTION - RESPONSIVITY 400PX SECTION */
     
     .main-header {
         display: flex;
@@ -1292,6 +1348,8 @@ input[type=submit]:hover {
         padding: 13px;
     }
 
+        /* HOME SECTION - RESPONSIVITY 400PX SECTION */
+
     .home {
         display: flex;
         flex-direction: column;
@@ -1314,6 +1372,8 @@ input[type=submit]:hover {
         width: 55vw;
     }
 
+        /* GITHUB AND LINKD ICON - RESPONSIVITY 400PX SECTION */
+
     .socials {
         display: flex;
         flex-direction: row;
@@ -1334,6 +1394,8 @@ input[type=submit]:hover {
         transform: translateY(-10px);
     
     }
+
+        /* ABOUT ME SECTION - RESPONSIVITY 400PX SECTION */
 
     .about-me {
         margin: 0px 0px 0px 0px;
@@ -1359,7 +1421,7 @@ input[type=submit]:hover {
         color: #03d1b6;
     }
 
-    /* MINHAS HABILIDADES */
+        /* MY SKILLS - RESPONSIVITY 400PX SECTION */
 
     .my-skills {
         display: flex;
@@ -1425,7 +1487,7 @@ input[type=submit]:hover {
     
     }
 
-    /* MEUS PROJETOS */
+        /* MY PROJECTS - RESPONSIVITY 400PX SECTION */
 
     .my-projects {
         margin: 0px 0px 0px 0px;
@@ -1474,6 +1536,8 @@ input[type=submit]:hover {
     
     }
 
+        /* FIRST PROJECT SECTION - RESPONSIVITY 400PX SECTION */
+
     .first-projeto > p > a {
         display: inline;
     
@@ -1490,6 +1554,8 @@ input[type=submit]:hover {
         
     }
 
+        /* SECOND PROJECT SECTION - RESPONSIVITY 400PX SECTION */
+
     .second-projeto {
         display: flex;
         flex-direction: column-reverse;
@@ -1501,7 +1567,6 @@ input[type=submit]:hover {
 
         text-align: center;
     }
-    
     
     .second-projeto > p > a {
         display: inline;
@@ -1522,6 +1587,8 @@ input[type=submit]:hover {
         filter: blur(2px);
     
     }
+
+        /* THIRD PROJECT SECTION - RESPONSIVITY 400PX SECTION */
 
     .third-projeto {
         display: flex;
@@ -1555,7 +1622,7 @@ input[type=submit]:hover {
     
     }
 
-    /* CONTATO */
+        /* CONTACT - RESPONSIVITY 400PX SECTION */
 
     .contact {
         
@@ -1593,6 +1660,8 @@ input[type=submit]:hover {
         display: none;
     
     }
+
+        /* FORM MAIN - RESPONSIVITY 400PX SECTION */
     
     .form-main {
         display: flex;
