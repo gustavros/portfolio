@@ -268,7 +268,6 @@ body {
     align-items: center;
     gap: 80px;
 
-    
 }
 
 /* VIDEOS MY-PROJECTS */
@@ -1609,6 +1608,17 @@ input[type=submit]:hover {
         transform: scale(1.03, 1.03);
         
         filter: blur(2px);
+    
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        width: 90%;
     
     }
 
