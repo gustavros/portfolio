@@ -9,6 +9,8 @@
 
 html {
     scroll-behavior: smooth;
+
+    scroll-padding-top: 90px;
 }
 
 body {
@@ -249,6 +251,8 @@ body {
 
 .my-projects > h1 {
     margin-bottom: 30px;
+
+    text-align: center;
 }
 
 .projects-container {
@@ -270,7 +274,6 @@ body {
     pointer-events: none;
 
 }
-
 
 .first-projeto {
     display: flex;
@@ -314,6 +317,8 @@ body {
     transform: translateY(-10px);
 }
 
+/* SEGUNDO PROJETO SECTION */
+
 
 .second-projeto {
     display: flex;
@@ -346,6 +351,8 @@ body {
 
 }
 
+/* TERCEIRO PROJETO SECTION */
+
 
 .third-projeto {
     display: flex;
@@ -377,9 +384,11 @@ body {
 
 }
 
+/* CONTACT */
+
 .contact {
     margin: 10px 40px 0px 40px;
-    padding: 45px;
+    padding-bottom: 10px;
 
     display: flex;
     flex-direction: column;
@@ -387,6 +396,29 @@ body {
     align-items: center;
 
     font-size: 22px;
+
+    position: relative;
+
+}
+
+.contact > .overlay-text-main {
+    position: absolute;
+
+    top: -79px;
+
+}
+
+.overlay-text {
+    position: absolute;
+    top: -130px;
+    z-index: -1;
+
+    font-size: 110px;
+    color: #3030305d;
+
+    letter-spacing: 8px;
+
+    text-transform: uppercase;
 
 }
 
@@ -428,6 +460,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     box-shadow: inset 300px 0 0 0 #03d1b6;
+
     color: #121212;
 
 }
@@ -436,18 +469,18 @@ input[type=submit]:hover {
     resize: none;
 
     outline: 0;
+
+    padding: 10px;
+
     border: 1px solid #a3a3a3;
 
     background-color: transparent;
     color: #00dec5;
-
-    padding: 10px;
+    
 
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
-
-
 
 
 /* SCROLL BAR */
@@ -472,5 +505,113 @@ input[type=submit]:hover {
   /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
     background: #105a55; 
+}
+
+/* RESPONSIVIDADE */
+
+
+@media only screen and (max-width: 780px) {
+    
+    .about-me {
+        margin: 30px 40px 55px 40px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 18px;
+    
+    }
+    
+    .about-me > img, strong {
+        width: 35vw;
+    
+        color: #03d1b6;
+    
+    }
+
+    .my-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+        text-align: center;
+    
+        margin: 0px 40px 55px 40px;
+        
+    }
+
+    .my-projects {
+        margin: 0px 20px 40px 20px;
+        padding: 10px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 22px;
+    }
+
+    .first-projeto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+        margin: 10px;
+    
+    }
+
+    .projeto-images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #projetos-images-img {
+        width: 3vw;
+    
+        margin-top: 20px;
+        margin-left: 5px;
+        
+        transition: ease 0.4s;
+    }
+
+    .second-projeto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+        margin: 10px;
+    }
+    
+    
+    .second-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 22px;
+    
+    }
+    
+    .second-projeto > a > img {
+        transition: ease 0.2s;
+    
+    }
+    
+    .second-projeto > a > img:hover{
+        transform: scale(1.03, 1.03);
+        
+        filter: blur(2px);
+    
+    }
 }
 
