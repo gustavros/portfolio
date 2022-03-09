@@ -753,12 +753,9 @@ input[type=submit]:hover {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-    
         text-align: center;
-    
-        margin: 0px 40px 40px 40px;
-        padding: 70px;
-        
+        margin: 0px 0px 0px 0px;
+        padding: 30px;
     }
     
     .my-skills-container {
@@ -771,8 +768,6 @@ input[type=submit]:hover {
     .my-skills-left {
         width: 38vw;
     
-        margin-right: 30px;
-    
     }
     
     .my-skills-right {
@@ -783,7 +778,6 @@ input[type=submit]:hover {
     
         text-align: center;
     
-        margin-left: 30px;
     }
     
     .my-skills-right > div > img {
@@ -1088,7 +1082,7 @@ input[type=submit]:hover {
 
     .my-projects {
         margin: 0px 0px 0px 0px;
-        padding: 10px;
+        padding: 0px;
     
         display: flex;
         flex-direction: column;
@@ -1129,8 +1123,6 @@ input[type=submit]:hover {
 
         font-size: 18px;
 
-        margin: 0px 50px;
-    
     }
 
     .first-projeto > p > a {
@@ -1156,8 +1148,6 @@ input[type=submit]:hover {
         align-items: center;
         gap: 30px;
     
-        margin: 0 50px;
-
         text-align: center;
     }
     
@@ -1188,8 +1178,6 @@ input[type=submit]:hover {
         align-items: center;
         gap: 30px;
     
-        margin: 0px 50px 30px 50px;
-
         text-align: center;
     }
     
@@ -1216,8 +1204,6 @@ input[type=submit]:hover {
         /* CONTACT SECTION - RESPONSIVITY 425PX SECTION */
 
     .contact {
-        
-    
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1226,6 +1212,8 @@ input[type=submit]:hover {
         font-size: 22px;
     
         position: relative;
+
+        margin: 0;
     
     }
     
