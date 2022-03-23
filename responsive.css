@@ -715,6 +715,15 @@
     
     }
 
+    .contact > .overlay-text-main {
+        position: absolute;
+    
+        top: 0px;
+
+        font-size: 4.2vh;
+    
+    }
+
     
 }
 
