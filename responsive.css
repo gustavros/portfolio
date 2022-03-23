@@ -448,7 +448,14 @@
         justify-content: center;
         align-items: center;
 
-        font-size: 3.7vw;
+        font-size: 4vw;
+
+        text-align: center;
+
+    }
+
+    .about-me > div > h1 {
+        font-size: 7vw;
 
         text-align: center;
 
@@ -581,15 +588,14 @@
     }
     
     .about-me {
-        margin: 70px 5px 75px 5px;
-        padding: 20px;
-        padding-bottom: 10px;
+        margin: 50px 5px 0px 5px;
+        padding: 10px;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        font-size: 5.7vw;
+        font-size: 4.7vw;
 
         text-align: center;
 
@@ -701,7 +707,7 @@
     }
 
     .my-skills {
-        margin: 70px 0px 70px 0px;
+        margin: 70px 0px 80px 0px;
     }
 
     .my-skills > h1 {
