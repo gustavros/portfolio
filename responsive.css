@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 885px) {
 
     .nav-toggle {
         display: initial;
@@ -40,7 +40,7 @@
         justify-content: center;
         align-items: center;
 
-        font-size: 3.1vh;
+        font-size: 3.5vh;
 
     }
 
@@ -82,13 +82,69 @@
 
     }
 
+    .first-projeto > p {
+        font-size: 3.5vh;
+
+        text-align: center;
+
+    }
+
     .first-projeto > p > a {
         display: inline;
 
         color: #03d1b6;
-        font-size: 4vh;
+        font-size: 3.5vh;
 
     }
+
+    .second-projeto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .second-projeto > p {
+        font-size: 3.5vh;
+
+        text-align: center;
+
+    }
+    
+    .second-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 3.5vh;
+    
+    }
+
+    .third-projeto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .third-projeto > p {
+        font-size: 3.5vh;
+
+        text-align: center;
+
+    }
+    
+    .third-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 3.5;
+    
+    }
+    
 
     .projeto-images {
         display: flex;
@@ -166,16 +222,285 @@
         width: 60%;
         height: 20%;
     }
+}
 
-
-@media (max-width: 425px) {
-
+@media (max-width: 665px) {
     .about-me {
-        margin: 0px 20px 40px 20px;
-        padding: 30px;
+        margin: 41px 40px 20px 20px;
+        padding: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 3.3vh;
+
+    }
+
+    .my-projects {
+        margin: 30px 40px 20px 40px;
+        padding: 0px;
+        padding-top: 10px;
 
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 590px) {
+
+    .home > h1 strong {
+        font-size: 4.5vh;
+    }
+
+    .home h1 strong, .about-me-img{
+        color: #03d1b6;
+    
+        width: 50vw;
+    }
+
+    .about-me {
+        margin: 70px 20px 70px 20px;
+        padding: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 3.8vh;
+
+        text-align: center;
+
+    }
+
+    .about-me > img, strong {
+        width: 0;
+    
+        color: #03d1b6;
+
+    }
+
+    .my-projects {
+        margin: 30px 40px 20px 40px;
+        padding: 0px;
+        padding-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 22px;
+    }
+
+    .first-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .first-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
+    }
+
+    .first-projeto > p > a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 3.1vh;
+
+    }
+
+    .second-projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .second-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
+    }
+
+    .second-projeto > p > a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 3.1vh;
+
+    }
+
+    .third-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .third-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
+    }
+
+    .third-projeto > p > a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 3.1vh;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+    .about-me {
+        margin: 70px 20px 70px 20px;
+        padding: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 3.4vh;
+
+        text-align: center;
+
+    }
+
+    .my-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+        text-align: center;
+    
+        margin: 0px 20px 0px 40px;
+        padding: 10px;
+        
+    }
+    
+    .my-skills > h1 {
+        font-size: 6vh;
+    
+    }
+    
+    .my-skills-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-skills-left {
+        width: 40vw;
+    
+        margin-right: 0px;
+    
+    }
+    
+    .my-skills-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    
+        text-align: center;
+    
+        margin-left: 0px;
+    }
+    
+    .my-skills-right > div > img {
+        width: 16vw;
+    }
+    
+    .text-second-section > p > strong {
+        color: #1ec1b6;
+    }
+    
+    .css, .javascript, .html{
+        transition: ease .3s;
+    
+        opacity: 1;
+    
+    }
+    
+    .css:hover,
+    .javascript:hover,
+    .html:hover {
+    
+        opacity: 1;
+        transform: translateY(-10px);
+    
+    }
+
+    .my-projects {
+        margin: 20px 40px 10px 40px;
+        padding: 12px;
+        padding-top: 0px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 22px;
+    }
+
+    .my-projects > h1 {
+        margin-bottom: 10px;
+
+        text-align: center;
+    }
+
+    .contact > .overlay-text-main {
+        position: absolute;
+    
+        top: 0px;
+
+        font-size: 4.5vh;
+    
+    }
+}
+
+@media (max-width: 375px) {
+    .home > h1 strong {
+        font-size: 4vh;
+    }
+
+    .home > h1 strong, .about-me-img{
+        color: #03d1b6;
+    
+        width: 75vw;
+
+        font-size: 5vh;
+    }
+    
+    .about-me {
+        margin: 10px 10px 10px 10px;
+        padding: 20px;
+
+        display: flex;
         justify-content: center;
         align-items: center;
 
@@ -185,110 +510,28 @@
 
     }
 
-    .about-me > img {
-        display: none;
-
-    }
-
-    .my-skills {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-
-        text-align: center;
-
-        margin: 0px 20px 0px 20px;
+    .my-projects {
+        margin: 30px 40px 20px 40px;
         padding: 0px;
+        padding-top: 10px;
 
-    }
-
-    .my-skills > h1 {
-        font-size: 6vh;
-
-    }
-
-    .my-skills-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        font-size: 22px;
     }
-
-    .my-skills-left {
-        width: 45vh;
-
-        margin-right: 0px;
-
-    }
-
-    .my-skills-right {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
-
-        text-align: center;
-
-        margin-left: 35px;
-    }
-
-    .my-skills-right > div > img {
-        width: 10vw;
-    }
-
-    .text-second-section > p > strong {
-        color: #1ec1b6;
-    }
-
-    .css, .javascript, .html{
-        transition: ease .3s;
-
-        opacity: 1;
-
-    }
-
-    .css:hover,
-    .javascript:hover,
-    .html:hover {
-
-        opacity: 1;
-        transform: translateY(-10px);
-
-    }
-
-    /* VIDEOS MY-PROJECTS */
 
     .projects-container > 
     .first-projeto video, 
     .second-projeto video, 
     .third-projeto video{
-        width: 50vw;
+    width: 70vw;
 
-        pointer-events: none;
+    pointer-events: none;
 
 }
-
-    .my-projects {
-        margin: 0px 0px 40px 0px;
-        padding: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        font-size: 22px;
-    }
-
-    .my-projects > h1 {
-        margin-bottom: 15px;
-
-        font-size: 6vh;
-
-        text-align: center;
-    }
 
     .first-projeto {
         display: flex;
@@ -297,7 +540,12 @@
         align-items: center;
         gap: 30px;
 
-        margin: 10px;
+    }
+
+    .first-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
 
     }
 
@@ -305,35 +553,8 @@
         display: inline;
 
         color: #03d1b6;
-        font-size: 3.3vh;
+        font-size: 3.1vh;
 
-    }
-
-    .first-projeto > p {
-        font-size: 3.3vh;
-
-        text-align: center;
-    }
-
-    .projeto-images {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    #projetos-images-img {
-        width: 5vh;
-
-        margin-top: 20px;
-        margin-left: 5px;
-
-        transition: ease 0.4s;
-    }
-
-    #projetos-images-img:hover {
-        transform: translateY(-10px);
     }
 
     .second-projeto {
@@ -342,33 +563,21 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
+    
+    }
 
-        margin: 10px;
+    .second-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
     }
 
     .second-projeto > p > a {
         display: inline;
 
         color: #03d1b6;
-        font-size: 3.3vh;
-
-    }
-
-    .second-projeto > p {
-        font-size: 3.3vh;
-
-        text-align: center;
-    }
-
-    .second-projeto > a > img {
-        transition: ease 0.2s;
-
-    }
-
-    .second-projeto > a > img:hover{
-        transform: scale(1.03, 1.03);
-
-        filter: blur(2px);
+        font-size: 3.1vh;
 
     }
 
@@ -378,451 +587,26 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
+    
+    }
 
-        margin: 10px;
+    .third-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
     }
 
     .third-projeto > p > a {
         display: inline;
 
         color: #03d1b6;
-        font-size: 3.3vh;
+        font-size: 3.1vh;
 
     }
-
-    .third-projeto > p {
-        font-size: 3.3vh;
-
-        text-align: center;
-    }
-
-    .third-projeto > a > img {
-        transition: ease 0.2s;
-
-    }
-
-    .third-projeto > a > img:hover{
-        transform: scale(1.03, 1.03);
-
-        filter: blur(2px);
-
-    }
-
-    .contact {
-        margin: 40px 40px 0px 40px;
-        padding-bottom: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        font-size: 22px;
-
-        position: relative;
-
-    }
-
-    .contact > .overlay-text-main {
-        position: absolute;
-
-        top: -5px;
-
-        font-size: 6vh;
-
-    }
-
-    /* TEXT OVERLAY */
-
-    .overlay-text {
-        position: absolute;
-        top: -130px;
-        z-index: -1;
-
-        font-size: 110px;
-        color: #3030305d;
-
-        letter-spacing: 8px;
-
-        text-transform: uppercase;
-
-        display: none;
-
-    }
-
-    .form-main > textarea {
-        resize: none;
-
-        outline: 0;
-
-        padding: 10px;
-
-        border: 1px solid #a3a3a3;
-
-        background-color: transparent;
-        color: #00dec5;
-
-
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-
-        width: 60%;
-        height: 20%;
-    }
-}
-
-@media (max-width: 375px) {
-    .my-projects > h1 {
-        margin-bottom: 15px;
-
-        font-size: 5vh;
-
-        text-align: center;
-    }
-
-    .about-me {
-        margin: 0px 20px 40px 20px;
-        padding: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        font-size: 3vh;
-
-        text-align: center;
-
-    }
-
-
-    .my-skills {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-
-        text-align: center;
-
-        margin: 0px 20px 0px 20px;
-        padding: 0px;
-
-    }
-
-    .my-skills > h1 {
-        font-size: 6vh;
-
-    }
-
-    .my-skills-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .my-skills-left {
-        width: 35vh;
-
-        margin-right: 0px;
-
-    }
-
-    .my-skills-right {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
-
-        text-align: center;
-
-        margin-left: 20px;
-    }
-
-    .my-skills-right > div > img {
-        width: 12vh;
-    }
-
-    .text-second-section > p > strong {
-        color: #1ec1b6;
-    }
-
-    .css, .javascript, .html{
-        transition: ease .3s;
-
-        opacity: 1;
-
-    }
-
-    .css:hover,
-    .javascript:hover,
-    .html:hover {
-
-        opacity: 1;
-        transform: translateY(-10px);
-
-    }
-
-    .my-projects {
-        margin: 0px 0px 40px 0px;
-        padding: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        font-size: 22px;
-    }
-
-    .my-projects > h1 {
-        margin-bottom: 15px;
-
-        font-size: 6vh;
-
-        text-align: center;
-    }
-
-    .first-projeto {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-
-        margin: 10px;
-
-    }
-
-    .first-projeto > p > a {
-        display: inline;
-
-        color: #03d1b6;
-        font-size: 3.3vh;
-
-    }
-
-    .first-projeto > p {
-        font-size: 3.3vh;
-
-        text-align: center;
-    }
-
-    .projeto-images {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    #projetos-images-img {
-        width: 5vh;
-
-        margin-top: 20px;
-        margin-left: 5px;
-
-        transition: ease 0.4s;
-    }
-
-    #projetos-images-img:hover {
-        transform: translateY(-10px);
-    }
-
-    .second-projeto {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-
-        margin: 10px;
-    }
-
-    .second-projeto > p > a {
-        display: inline;
-
-        color: #03d1b6;
-        font-size: 3.3vh;
-
-    }
-
-    .second-projeto > p {
-        font-size: 3.3vh;
-
-        text-align: center;
-    }
-
-    .second-projeto > a > img {
-        transition: ease 0.2s;
-
-    }
-
-    .second-projeto > a > img:hover{
-        transform: scale(1.03, 1.03);
-
-        filter: blur(2px);
-
-    }
-
-    .third-projeto {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-
-        margin: 10px;
-    }
-
-    .third-projeto > p > a {
-        display: inline;
-
-        color: #03d1b6;
-        font-size: 3.3vh;
-
-    }
-
-    .third-projeto > p {
-        font-size: 3.3vh;
-
-        text-align: center;
-    }
-
-    .third-projeto > a > img {
-        transition: ease 0.2s;
-
-    }
-
-    .third-projeto > a > img:hover{
-        transform: scale(1.03, 1.03);
-
-        filter: blur(2px);
-
-    }
-
 
 
 }
 
-@media (max-width: 320px) {
 
-    .about-me {
-        margin: 0px 20px 40px 20px;
-        padding: 0px;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        font-size: 2.7vh;
-
-        text-align: center;
-
-    }
-    .my-skills {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-
-        text-align: center;
-
-        margin: 0px 20px 0px 20px;
-        padding: 0px;
-
-    }
-
-    .my-skills > h1 {
-        font-size: 6vh;
-
-    }
-
-    .my-skills-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .my-skills-left {
-        width: 35vh;
-
-        margin-right: 0px;
-
-    }
-
-    .my-skills-right {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
-
-        text-align: center;
-
-        margin-left: 20px;
-    }
-
-    .my-skills-right > div > img {
-        width: 10vh;
-    }
-
-    .text-second-section > p > strong {
-        color: #1ec1b6;
-    }
-
-    .css, .javascript, .html{
-        transition: ease .3s;
-
-        opacity: 1;
-
-    }
-
-    .css:hover,
-    .javascript:hover,
-    .html:hover {
-
-        opacity: 1;
-        transform: translateY(-10px);
-
-    }
-
-    .my-projects > h1 {
-        margin-bottom: 0px;
-
-        font-size: 5vh;
-
-        text-align: center;
-    }
-
-    .contact > .overlay-text-main {
-        position: absolute;
-
-        top: -5px;
-
-        font-size: 4vh;
-
-    }
-
-    /* TEXT OVERLAY */
-
-    .overlay-text {
-        position: absolute;
-        top: -130px;
-        z-index: -1;
-
-        font-size: 110px;
-        color: #3030305d;
-
-        letter-spacing: 8px;
-
-        text-transform: uppercase;
-
-        display: none;
-
-    }
-
-} 
