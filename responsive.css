@@ -570,7 +570,7 @@
 @media (max-width: 320px) {
 
     .about-me {
-        margin: 0px 10px 40px 10px;
+        margin: 0px 10px 48px 10px;
         padding: 10px;
     
         display: flex;
@@ -578,9 +578,76 @@
         justify-content: center;
         align-items: center;
     
-        font-size: 2.9vh;
+        font-size: 2.7vh;
 
         text-align: center;
+    
+    }
+    .my-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+        text-align: center;
+    
+        margin: 0px 20px 0px 20px;
+        padding: 0px;
+        
+    }
+
+    .my-skills > h1 {
+        font-size: 6vh;
+    
+    }
+    
+    .my-skills-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-skills-left {
+        width: 35vh;
+    
+        margin-right: 0px;
+    
+    }
+    
+    .my-skills-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    
+        text-align: center;
+    
+        margin-left: 20px;
+    }
+    
+    .my-skills-right > div > img {
+        width: 10vh;
+    }
+    
+    .text-second-section > p > strong {
+        color: #1ec1b6;
+    }
+    
+    .css, .javascript, .html{
+        transition: ease .3s;
+    
+        opacity: 1;
+    
+    }
+    
+    .css:hover,
+    .javascript:hover,
+    .html:hover {
+    
+        opacity: 1;
+        transform: translateY(-10px);
     
     }
 
