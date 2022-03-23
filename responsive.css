@@ -699,7 +699,7 @@
 @media (max-width: 320px) {
 
     .home > h1 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .home > h1 strong {
@@ -711,7 +711,7 @@
     
         width: 75vw;
 
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .home {
