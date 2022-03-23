@@ -481,15 +481,15 @@
     }
 
     .about-me {
-        margin: 0px 10px 40px 10px;
-        padding: 10px;
+        margin: 0px 5px 40px 5px;
+        padding: 5px;
     
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     
-        font-size: 3.2vh;
+        font-size: 3vh;
 
         text-align: center;
     
@@ -570,15 +570,15 @@
 @media (max-width: 320px) {
 
     .about-me {
-        margin: 0px 10px 48px 10px;
-        padding: 10px;
+        margin: 0px 5px 48px 5px;
+        padding: 5px;
     
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     
-        font-size: 2.8vh;
+        font-size: 3vh;
 
         text-align: center;
     
