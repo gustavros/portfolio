@@ -540,6 +540,22 @@
 }
 
 @media (max-width: 325px) {
+
+    .about-me {
+        margin: 0px 20px 40px 20px;
+        padding: 10px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 2.9vh;
+
+        text-align: center;
+    
+    }
+
     .my-projects > h1 {
         margin-bottom: 0px;
     
