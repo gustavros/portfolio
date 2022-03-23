@@ -706,7 +706,7 @@
 
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 
     .about-me {
         margin: 0px 20px 40px 20px;
@@ -803,7 +803,7 @@
     
         top: -5px;
 
-        font-size: 4.9vh;
+        font-size: 4vh;
     
     }
 
