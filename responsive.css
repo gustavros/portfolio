@@ -442,3 +442,51 @@
         height: 20%;
     }
 }
+
+@media (max-width: 375px) {
+    .my-projects > h1 {
+        margin-bottom: 15px;
+    
+        font-size: 5vh;
+    
+        text-align: center;
+    }
+}
+
+@media (max-width: 325px) {
+    .my-projects > h1 {
+        margin-bottom: 0px;
+    
+        font-size: 5vh;
+    
+        text-align: center;
+    }
+
+    .contact > .overlay-text-main {
+        position: absolute;
+    
+        top: -5px;
+
+        font-size: 5vh;
+    
+    }
+
+    /* TEXT OVERLAY */
+
+    .overlay-text {
+        position: absolute;
+        top: -130px;
+        z-index: -1;
+
+        font-size: 110px;
+        color: #3030305d;
+
+        letter-spacing: 8px;
+
+        text-transform: uppercase;
+
+        display: none;
+
+    }
+
+}
