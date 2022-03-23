@@ -602,7 +602,7 @@
     }
 
     .about-me > div > h1 {
-        font-size: 5.1vh;
+        font-size: 8vw;
 
         text-align: center;
     }
@@ -621,7 +621,7 @@
     }
 
     .my-projects > h1 {
-        font-size: 5.1vh;
+        font-size: 4vh;
     }
 
     .projects-container > 
@@ -711,7 +711,7 @@
     }
 
     .my-skills > h1 {
-        font-size: 5.2vh;
+        font-size: 4vh;
     
     }
 
