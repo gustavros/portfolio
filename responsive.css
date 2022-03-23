@@ -369,6 +369,74 @@
 
     }
 
+    .my-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+        text-align: center;
+    
+        margin: 0px 20px 0px 40px;
+        padding: 10px;
+        
+    }
+    
+    .my-skills > h1 {
+        font-size: 6vh;
+    
+    }
+    
+    .my-skills-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-skills-left {
+        width: 40vw;
+    
+        margin-right: 0px;
+    
+    }
+    
+    .my-skills-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    
+        text-align: center;
+    
+        margin-left: 30px;
+    }
+    
+    .my-skills-right > div > img {
+        width: 15vw;
+    }
+    
+    .text-second-section > p > strong {
+        color: #1ec1b6;
+    }
+    
+    .css, .javascript, .html{
+        transition: ease .3s;
+    
+        opacity: 1;
+    
+    }
+    
+    .css:hover,
+    .javascript:hover,
+    .html:hover {
+    
+        opacity: 1;
+        transform: translateY(-10px);
+    
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -380,7 +448,7 @@
         justify-content: center;
         align-items: center;
 
-        font-size: 3.4vh;
+        font-size: 3.7vw;
 
         text-align: center;
 
@@ -497,14 +565,15 @@
     }
     
     .about-me {
-        margin: 10px 10px 10px 10px;
+        margin: 0px 10px 10px 10px;
         padding: 20px;
+        padding-bottom: 10px;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        font-size: 3vh;
+        font-size: 4.3vw;
 
         text-align: center;
 
