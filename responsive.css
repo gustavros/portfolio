@@ -608,5 +608,159 @@
 
 }
 
+@media (max-width: 320px) {
+
+    .home > h1 {
+        font-size: 4vh;
+    }
+
+    .home > h1 strong {
+        font-size: 4vh;
+    }
+
+    .home > h1 strong, .about-me-img{
+        color: #03d1b6;
+    
+        width: 75vw;
+
+        font-size: 4vh;
+    }
+
+    .home {
+        margin-bottom: 70px;
+    }
+    
+    .about-me {
+        margin: 70px 0px 70px 0px;
+        padding: 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 3vh;
+
+        text-align: center;
+
+    }
+
+    .about-me > div > h1 {
+        font-size: 5vh;
+
+        text-align: center;
+
+    }
+
+    .my-skills {
+        margin: 70px 0px;;
+    }
+
+    .my-skills > h1 {
+        font-size: 5vh;
+
+        text-align: center;
+
+    }
+
+    .my-projects {
+        margin: 30px 10px 20px 10px;
+        padding: 0px;
+        padding-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 22px;
+    }
+
+    .projects-container > 
+    .first-projeto video, 
+    .second-projeto video, 
+    .third-projeto video{
+    width: 70vw;
+
+    pointer-events: none;
+
+}
+
+    .first-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .first-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
+    }
+
+    .first-projeto > p > a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 3.1vh;
+
+    }
+
+    .second-projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .second-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
+    }
+
+    .second-projeto > p > a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 3.1vh;
+
+    }
+
+    .third-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .third-projeto > p {
+        font-size: 3.1vh;
+
+        text-align: center;
+
+    }
+
+    .third-projeto > p > a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 3.1vh;
+
+    }
+
+
+}
+
 
 
