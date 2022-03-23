@@ -414,7 +414,7 @@
     }
     
     .my-skills-right > div > img {
-        width: 15vw;
+        width: 16vw;
     }
     
     .text-second-section > p > strong {
@@ -573,10 +573,16 @@
         justify-content: center;
         align-items: center;
 
-        font-size: 4.3vw;
+        font-size: 4.2vw;
 
         text-align: center;
 
+    }
+
+    .about-me > div > h1 {
+        font-size: 5.1vh;
+
+        text-align: center;
     }
 
     .my-projects {
@@ -590,6 +596,10 @@
         align-items: center;
 
         font-size: 22px;
+    }
+
+    .my-projects > h1 {
+        font-size: 5.1vh;
     }
 
     .projects-container > 
@@ -674,6 +684,15 @@
 
     }
 
+    .my-skills {
+        margin: 70px 0px 70px 0px;
+    }
+
+    .my-skills > h1 {
+        font-size: 5.2vh;
+    
+    }
+
 
 }
 
@@ -742,6 +761,10 @@
         align-items: center;
 
         font-size: 22px;
+    }
+
+    .my-projects > h1 {
+        font-size: 5vh;
     }
 
     .projects-container > 
