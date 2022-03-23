@@ -99,6 +99,24 @@ body {
     transform-origin: bottom left;
 }
 
+.nav-toggle {
+    color: #00dec5;
+    font-size: 27px;
+
+    background-color: #121212;
+
+    cursor: pointer;
+
+    transition: all 0.3s linear;
+
+    display: none;
+}
+
+.nav-toggle:hover {
+    color: #00dec5;
+    transform: rotate(90deg);
+    }
+
 /* MAIN SECTION */
 
 .main {
