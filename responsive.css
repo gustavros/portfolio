@@ -570,8 +570,8 @@
 @media (max-width: 320px) {
 
     .about-me {
-        margin: 0px 5px 48px 5px;
-        padding: 5px;
+        margin: 0px 5px 40px 5px;
+        padding: 0px;
     
         display: flex;
         flex-direction: column;
