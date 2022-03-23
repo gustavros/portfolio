@@ -699,7 +699,7 @@
 @media (max-width: 320px) {
 
     .home > h1 {
-        font-size: 4vh;
+        font-size: 5vw;
     }
 
     .home > h1 strong {
@@ -711,7 +711,7 @@
     
         width: 75vw;
 
-        font-size: 4vh;
+        font-size: 5vw;
     }
 
     .home {
@@ -726,17 +726,12 @@
         justify-content: center;
         align-items: center;
 
-        font-size: 4.5vw;
-
         text-align: center;
 
     }
-
-    .about-me > div > h1 {
-        font-size: 5vh;
-
-        text-align: center;
-
+    
+    .about-me > div > p {
+        font-size: 4.9vw;
     }
 
     .my-skills {
@@ -744,10 +739,17 @@
     }
 
     .my-skills > h1 {
-        font-size: 5vh;
+        font-size: 7vw;
 
         text-align: center;
 
+    }
+
+    .my-skills-left {
+        width: 70vw;
+    
+        margin-right: 0px;
+    
     }
 
     .my-projects {
@@ -764,7 +766,7 @@
     }
 
     .my-projects > h1 {
-        font-size: 5vh;
+        font-size: 7vw;
     }
 
     .projects-container > 
