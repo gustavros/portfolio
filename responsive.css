@@ -451,6 +451,24 @@
     
         text-align: center;
     }
+
+    .about-me {
+        margin: 0px 20px 40px 20px;
+        padding: 10px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 3.2vh;
+
+        text-align: center;
+    
+    }
+
+
+
 }
 
 @media (max-width: 325px) {
