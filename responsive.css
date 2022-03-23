@@ -631,14 +631,14 @@
     }
     
     .about-me {
-        margin: 70px 0px 70px 0px;
+        margin: 70px 10px 70px 10px;
         padding: 0px;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        font-size: 3vh;
+        font-size: 4.5vw;
 
         text-align: center;
 
