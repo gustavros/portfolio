@@ -3,5 +3,4 @@ const navBar = document.querySelector('.navbar');
 
 navToggle.addEventListener('click', function() {
     navBar.classList.toggle('active');
-    console.log(navBar)
 })
