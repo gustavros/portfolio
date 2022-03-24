@@ -436,7 +436,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
 
     }
 
@@ -460,7 +460,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
     
     }
 
@@ -484,7 +484,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
     
     }
 
@@ -606,6 +606,14 @@
         margin: 10px 3px;
 
         transition: ease 0.4s;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
     }
 
 }
