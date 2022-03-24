@@ -564,7 +564,7 @@
 
 @media (max-width: 300px) {
     html {
-        font-size: 45%;
+        font-size: 50%;
     }
 
     .home > .about-me-img {
@@ -573,11 +573,13 @@
     }
 
     .about-me {
-        margin: 0px 0px 0px 0px;
+        margin: 70px 0px 70px 0px;
     }
 
     .my-skills {
         padding: 20px;
+
+        margin: 0px 0px 60px 0px;
     }
 
     .my-skills-left {
