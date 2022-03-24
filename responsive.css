@@ -837,6 +837,10 @@
         margin: 0px 0px 70px 0px;
     }
 
+    .about-me > div > p {
+        font-size: 2rem;
+    }
+
     .my-skills {
         padding: 20px;
 
