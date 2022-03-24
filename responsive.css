@@ -512,8 +512,16 @@
 
 @media (max-width: 425px) {
     html {
-        font-size: 55%;
+        font-size: 60%;
     
+    }
+
+    .socials {
+        margin: 10px 0px 80px 0px;
+    }
+
+    .home > .about-me-img {
+        width: 70vw;
     }
 
     .about-me > div > p {
@@ -526,7 +534,7 @@
     }
 
     .my-skills {
-        margin: 70px 20px 20px 20px;
+        margin: 50px 10px 20px 10px;
     }
 
     .my-skills-container {
@@ -567,13 +575,257 @@
         margin-bottom: 10px;
     }
 
-    
+    .projects-container > 
+    .first-projeto video, 
+    .second-projeto video, 
+    .third-projeto video{
+        width: 70vw;
 
+        pointer-events: none;
+
+    }
+
+    .my-projects {
+        margin: 20px 20px 20px 20px;
+        padding: 0px;
+        padding-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .my-projects > h1 {
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        font-size: 2.6rem;
+    }
+
+    .first-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .first-projeto > p {
+        font-size: 1.8rem;
+
+        text-align: center;
+
+    }
+
+    .first-projeto > p a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 1.8rem;
+
+    }
+
+    .second-projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+    }
+
+    .second-projeto > p {
+        font-size: 1.8rem;
+
+        text-align: center;
+
+    }
+    
+    .second-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 1.8rem;
+    
+    }
+
+    .third-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+    }
+
+    .third-projeto > p {
+        font-size: 1.8rem;
+
+        text-align: center;
+
+    }
+    
+    .third-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 1.8rem;
+    
+    }
+
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 60%;
+    }
+
+    .home > .about-me-img {
+        width: 60vw;
+    }
+
+    .socials > a > img{
+        width: 10vw;
+
+        margin: 0px 0px 70px 0px;
+    }
+
+    .about-me > div > p{
+        font-size: 1.8rem;
+    }
+
+    .projects-container > 
+    .first-projeto video, 
+    .second-projeto video, 
+    .third-projeto video{
+        width: 70vw;
+
+        pointer-events: none;
+
+    }
+
+    .my-projects {
+        margin: 20px 20px 20px 20px;
+        padding: 0px;
+        padding-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .my-projects > h1 {
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        font-size: 2.6rem;
+    }
+
+    .first-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .first-projeto > p {
+        font-size: 2.0rem;
+
+        text-align: center;
+
+    }
+
+    .first-projeto > p a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 2.0rem;
+
+    }
+
+    .second-projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+    }
+
+    .second-projeto > p {
+        font-size: 2.0rem;
+
+        text-align: center;
+
+    }
+    
+    .second-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 2.0rem;
+    
+    }
+
+    .third-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+    }
+
+    .third-projeto > p {
+        font-size: 2.0rem;
+
+        text-align: center;
+
+    }
+    
+    .third-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 2.0rem;
+    
+    }
+
+    .my-skills-left {
+        margin-right: 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 60vw;
+    }
+
+    .projeto-images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 
 @media (max-width: 300px) {
     html {
         font-size: 50%;
+    }
+
+    .socials {
+        margin: 0px 0px 0px 0px;
     }
 
     .home > .about-me-img {
@@ -582,7 +834,7 @@
     }
 
     .about-me {
-        margin: 70px 0px 70px 0px;
+        margin: 0px 0px 70px 0px;
     }
 
     .my-skills {
@@ -612,7 +864,7 @@
     }
 
     #projetos-images-img {
-        width: 5vh;
+        width: 6vh;
 
         margin: 10px 3px;
 
