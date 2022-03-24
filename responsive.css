@@ -1,12 +1,13 @@
 @media (max-width: 885px) {
+    
+    body {
+        overflow-x: hidden;
+    }
 
     .nav-toggle {
         display: initial;
     }
 
-    body {
-        overflow-x: hidden;
-    }
 
     .navbar {
         position: absolute;
@@ -32,7 +33,7 @@
     }
 
     .about-me {
-        margin: 0px 40px 20px 40px;
+        margin: 70px 40px 70px 40px;
         padding: 20px;
 
         display: flex;
@@ -339,7 +340,7 @@
 @media (max-width: 540px) {
 
     .about-me {
-        margin: 0px 20px 20px 20px;
+        margin: 70px 20px 70px 20px;
         padding: 10px;
 
         display: flex;
@@ -358,6 +359,10 @@
 
     .about-me div > p {
         font-size: 1.6rem;
+    }
+
+    .my-skills {
+        margin: 0px 20px 70px 20px;
     }
 
     .my-skills-container {
@@ -518,6 +523,10 @@
 
     .about-me > img {
         width: 0;
+    }
+
+    .my-skills {
+        margin: 70px 20px 20px 20px;
     }
 
     .my-skills-container {
