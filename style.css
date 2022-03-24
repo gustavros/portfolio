@@ -138,7 +138,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-size: 1.5vw;
     word-spacing: 5px;
 
     padding: 15px;
@@ -149,7 +148,7 @@ body {
 }
 
 .home > h1{
-    font-size: 2.4rem;
+    font-size: 3.0rem;
 
     margin-bottom: 10px;
 }
@@ -193,12 +192,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-size: 3.5vh;
+    font-size: 2.0rem;
 
 }
 
 .about-me > div > h1 {
-    font-size: 6vh;
+    font-size: 3.0rem;
 
 }
 
@@ -225,7 +224,9 @@ body {
 }
 
 .my-skills > h1 {
-    font-size: 6vh;
+    font-size: 3.0rem;
+
+    margin-bottom: 20px;
 
 }
 
@@ -237,7 +238,7 @@ body {
 }
 
 .my-skills-left {
-    width: 35vw;
+    width: 30vw;
 
     margin-right: 50px;
 
@@ -252,10 +253,12 @@ body {
     text-align: center;
 
     margin-left: 50px;
+
+    font-size: 1.8rem;
 }
 
 .my-skills-right > div > img {
-    width: 10vw;
+    width: 8vw;
 }
 
 .text-second-section > p > strong {
@@ -295,7 +298,7 @@ body {
 .my-projects > h1 {
     margin-bottom: 30px;
 
-    font-size: 6vh;
+    font-size: 3.0rem;
 
     text-align: center;
 }
@@ -315,7 +318,7 @@ body {
 .first-projeto video, 
 .second-projeto video, 
 .third-projeto video{
-    width: 40vw;
+    width: 35vw;
 
     pointer-events: none;
 
@@ -326,19 +329,24 @@ body {
 .first-projeto {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 30px;
     
     margin: 10px;
 
+
+}
+
+.first-projeto > p {
+    font-size: 2.2rem;
 }
 
 .first-projeto > p > a {
     display: inline;
 
     color: #03d1b6;
-    font-size: 22px;
+    font-size: 2.2rem;
 
 }
 
@@ -368,18 +376,21 @@ body {
 .second-projeto {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     gap: 30px;
 
     margin: 10px;
 }
 
+.second-projeto > p {
+    font-size: 2.2rem;
+}
+
 .second-projeto > p > a {
     display: inline;
 
     color: #03d1b6;
-    font-size: 22px;
+    font-size: 2.2rem;
 
 }
 
@@ -400,18 +411,21 @@ body {
 .third-projeto {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     gap: 30px;
 
     margin: 10px;
 }
 
+.third-projeto > p {
+    font-size: 2.2rem;
+}
+
 .third-projeto > p > a {
     display: inline;
 
     color: #03d1b6;
-    font-size: 22px;
+    font-size: 2.2rem;
 
 }
 
