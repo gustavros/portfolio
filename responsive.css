@@ -31,26 +31,42 @@
         transform: translateX(0);
     }
 
-
     .about-me {
-        margin: 41px 40px 20px 20px;
+        margin: 0px 40px 20px 40px;
         padding: 20px;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        font-size: 3.5vh;
+    }
 
+    .about-me > div > h1 {
+        font-size: 2.6rem;
+
+    }
+
+    .about-me div > p {
+        font-size: 1.6rem;
+    }
+
+    .my-skills > h1 {
+        font-size: 2.6rem;
+
+        margin-bottom: 10px;
+    }
+
+    .my-skills-right {
+        font-size: 1.8rem;
     }
 
     .projects-container > 
     .first-projeto video, 
     .second-projeto video, 
     .third-projeto video{
-    width: 45vw;
+        width: 45vw;
 
-    pointer-events: none;
+        pointer-events: none;
 
 }
 
@@ -64,36 +80,37 @@
         justify-content: center;
         align-items: center;
 
-        font-size: 22px;
     }
 
     .my-projects > h1 {
         margin-bottom: 30px;
 
         text-align: center;
+
+        font-size: 2.6rem;
     }
 
     .first-projeto {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 30px;
 
     }
 
     .first-projeto > p {
-        font-size: 3.5vh;
+        font-size: 1.8rem;
 
         text-align: center;
 
     }
 
-    .first-projeto > p > a {
+    .first-projeto > p a {
         display: inline;
 
         color: #03d1b6;
-        font-size: 3.5vh;
+        font-size: 1.8rem;
 
     }
 
@@ -101,13 +118,13 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 30px;
     
     }
 
     .second-projeto > p {
-        font-size: 3.5vh;
+        font-size: 1.8rem;
 
         text-align: center;
 
@@ -117,7 +134,7 @@
         display: inline;
     
         color: #03d1b6;
-        font-size: 3.5vh;
+        font-size: 1.8rem;
     
     }
 
@@ -125,13 +142,13 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 30px;
     
     }
 
     .third-projeto > p {
-        font-size: 3.5vh;
+        font-size: 1.8rem;
 
         text-align: center;
 
@@ -141,7 +158,7 @@
         display: inline;
     
         color: #03d1b6;
-        font-size: 3.5;
+        font-size: 1.8rem;
     
     }
     
@@ -157,8 +174,7 @@
     #projetos-images-img {
         width: 6vh;
 
-        margin-top: 20px;
-        margin-left: 5px;
+        margin: 10px 3px;
 
         transition: ease 0.4s;
     }
@@ -222,4 +238,250 @@
         width: 60%;
         height: 20%;
     }
+}
+
+@media (max-width: 660px) {
+    html {
+        font-size: 56%;
+    }
+
+    .contact {
+        margin: 40px 40px 0px 40px;
+        padding-bottom: 0px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 22px;
+
+        position: relative;
+
+    }
+
+    .form-main > label {
+        font-size: 1.8rem;
+    }
+
+    .contact > .overlay-text-main {
+        position: absolute;
+
+        top: -5px;
+
+        font-size: 2.6rem;
+
+    }
+
+    /* TEXT OVERLAY */
+
+    .overlay-text {
+        position: absolute;
+        top: -130px;
+        z-index: -1;
+
+        font-size: 110px;
+        color: #3030305d;
+
+        letter-spacing: 8px;
+
+        text-transform: uppercase;
+
+        display: none;
+
+    }
+
+    .form-main > textarea {
+        resize: none;
+
+        outline: 0;
+
+        padding: 10px;
+
+        border: 1px solid #a3a3a3;
+
+        background-color: transparent;
+        color: #00dec5;
+
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+
+        width: 60%;
+        height: 20%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .about-me {
+        margin: 0px 40px 20px 40px;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .about-me > div > h1 {
+        font-size: 2.6rem;
+
+    }
+
+    .about-me div > p {
+        font-size: 1.6rem;
+    }
+
+    .my-skills-container {
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .my-skills-left {
+        margin-right: 0px;
+    }
+
+    .my-skills-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 0px;
+
+        gap: 30px;
+
+    }
+
+    .my-skills-right {
+        font-size: 1.8rem;
+
+    }
+
+    .my-skills > h1 {
+        font-size: 2.6rem;
+
+        margin-bottom: 10px;
+    }
+
+    .projects-container > 
+    .first-projeto video, 
+    .second-projeto video, 
+    .third-projeto video{
+        width: 50vw;
+
+        pointer-events: none;
+
+}
+
+    .my-projects {
+        margin: 20px 20px 20px 20px;
+        padding: 0px;
+        padding-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .my-projects > h1 {
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        font-size: 2.6rem;
+    }
+
+    .first-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .first-projeto > p {
+        font-size: 1.8rem;
+
+        text-align: center;
+
+    }
+
+    .first-projeto > p a {
+        display: inline;
+
+        color: #03d1b6;
+        font-size: 1.8rem;
+
+    }
+
+    .second-projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .second-projeto > p {
+        font-size: 1.8rem;
+
+        text-align: center;
+
+    }
+    
+    .second-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 1.8rem;
+    
+    }
+
+    .third-projeto {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+    }
+
+    .third-projeto > p {
+        font-size: 1.8rem;
+
+        text-align: center;
+
+    }
+    
+    .third-projeto > p > a {
+        display: inline;
+    
+        color: #03d1b6;
+        font-size: 1.8rem;
+    
+    }
+    
+
+    .projeto-images {
+        
+
+    }
+
+    #projetos-images-img {
+        
+    }
+
+
 }

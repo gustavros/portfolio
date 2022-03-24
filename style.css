@@ -10,7 +10,9 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 50px;
+    scroll-padding-top: 60px;
+
+    font-size: 62.5%;
     
 }
 
@@ -136,7 +138,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-size: 2.4vh;
+    font-size: 1.5vw;
     word-spacing: 5px;
 
     padding: 15px;
@@ -146,14 +148,17 @@ body {
 
 }
 
-.home > h1 {
-    max-width: 670px;
+.home > h1{
+    font-size: 2.4rem;
+
+    margin-bottom: 10px;
 }
 
-.home h1 strong, .about-me-img{
+.home > .about-me-img{
     color: #03d1b6;
 
     width: 35vw;
+
 }
 
 /* ICON GITHUB+LINKD SECTION */
