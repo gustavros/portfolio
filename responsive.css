@@ -702,7 +702,7 @@
     .first-projeto video, 
     .second-projeto video, 
     .third-projeto video{
-        width: 70vw;
+        width: 60vw;
 
         pointer-events: none;
 
@@ -725,7 +725,7 @@
 
         text-align: center;
 
-        font-size: 2.6rem;
+        font-size: 2.3rem;
     }
 
     .first-projeto {
@@ -738,7 +738,7 @@
     }
 
     .first-projeto > p {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
 
         text-align: center;
 
@@ -748,7 +748,7 @@
         display: inline;
 
         color: #03d1b6;
-        font-size: 2.0rem;
+        font-size: 1.8rem;
 
     }
 
@@ -762,7 +762,7 @@
     }
 
     .second-projeto > p {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
 
         text-align: center;
 
@@ -772,7 +772,7 @@
         display: inline;
     
         color: #03d1b6;
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     
     }
 
@@ -786,7 +786,7 @@
     }
 
     .third-projeto > p {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
 
         text-align: center;
 
@@ -796,7 +796,7 @@
         display: inline;
     
         color: #03d1b6;
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     
     }
 
