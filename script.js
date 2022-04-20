@@ -1,10 +1,11 @@
-const navToggle = document.querySelector('.nav-toggle');
-const navBar = document.querySelector('.navbar');
+const navToggle = document.querySelector('.nav-toggle'); // nav-toggle
+const navBar = document.querySelector('.navbar'); // navbar
 
-navToggle.addEventListener('click', function () {
-  navBar.classList.toggle('active');
+navToggle.addEventListener('click', function () { // click event
+  navBar.classList.toggle('active'); // toggle class active
 });
 
-navBar.addEventListener('click', function () {
-  navBar.classList.remove('active');
+navBar.addEventListener('click', function () { // click event
+  navBar.classList.remove('active'); // remove class active
 });
+
